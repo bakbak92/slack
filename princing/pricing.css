@@ -1,0 +1,498 @@
+body {
+  margin:O;
+  padding:O;
+  font-family: 'Lato', sans-serif;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding-right: 20px;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #2B3645;
+}
+
+header nav ul a:hover {
+  color: #3AA3E3;
+}
+
+header nav .left a {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+header nav .left a:hover {
+color:#3AA3E3;
+}
+
+header nav .right li a {
+  color: #9E9EA6;
+}
+
+header nav .right li a:hover {
+  color:#3AA3E3;
+}
+
+#guide h1 {
+  color: #2B3645;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+#guide .slackfree {
+  color: #68686F;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#guide .column {
+  display: flex;
+  justify-content: space-around;
+}
+
+#guide .column .containt {
+  width: 20%;
+}
+
+#guide .column .containt div {
+  width: 240px;
+  border-radius: 6px;
+  height: 300px;
+}
+
+#guide .column .containt .free {
+  background-color: #8A74B9;
+  color: white;
+}
+
+#guide .column .containt .standar {
+  background-color: #4CB992;
+  color: white;
+}
+
+#guide .column .containt .plus {
+    background-color: #3499E0;
+    color: white;
+}
+
+#guide .column .containt .enterprise {
+  background-color: #E99B4F;
+  color: white;
+}
+
+#guide .column .containt div h3 {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#guide .column .containt div h4 {
+  font-size: 46px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+#guide .column .containt div h4 span {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+#guide .column .containt div p {
+  font-size: 13px;
+  text-align: center;
+}
+
+#guide .column .containt button{
+  padding: 10px 0;
+  width: 240px;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+#guide .column .containt .btnviolet {
+  border: 2px solid rgb(188, 188, 189);
+  color: rgb(188, 188, 189);
+  background-color: white;
+}
+
+#guide .column .containt .btngreen {
+  border: 2px solid #3B9776;
+  background-color: #3B9776;
+  color: white;
+}
+
+#guide .column .containt .btnblue {
+  border: 2px solid #1E7FC3;
+  background-color: #1E7FC3;
+  color: white;
+}
+
+#guide .column .containt .btnorange {
+  background-color: #E99B4F;
+  border: 2px solid #E99B4F;
+  color: white;
+}
+
+#guide .column .containt .tviolet {
+  color: #8A74B9;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+#guide .column .containt .tgreen {
+  color:#4CB992;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+#guide .column .containt .tblue {
+  color: #3499E0;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+#guide .column .containt .torange {
+  color: #E99B4F;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 0;
+
+}
+
+#guide .column .containt .pviolet {
+  color: #8A74B9;
+  font-size: 18px;
+  margin-top: 0;
+
+}
+
+#guide .column .containt .pgreen {
+  color: #4CB992;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#guide .column .containt .pblue {
+  color: #3499E0;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#guide .column .containt .porange {
+  color: #E99B4F;
+  font-size: 18px;
+  margin-top: 0;
+
+}
+
+#guide .column .containt ul li {
+  color: rgb(105, 105, 111);
+  font-size: 16px;
+  list-style-type: circle;
+  padding-top: 15px;
+}
+
+#guide  .column .containt .violet {
+  color: #8A74B9;
+  border: 1px solid;
+}
+
+#guide .column .containt .green {
+  color: #4CB992;
+  border: 1px solid;
+}
+
+#guide .column .containt .blue {
+  color: #3499E0;
+  border: 1px solid;
+}
+
+#guide .containt .orange {
+  color: #E99B4F;
+  border: 1px solid;
+}
+
+.linegrey {
+    background-color: rgb(233, 237, 245);
+    color: rgb(233, 237, 245);
+    border: 1px solid;
+}
+
+#tweeter .love {
+  color: #3a4351;
+  font-size: 36px;
+  text-align: center;
+}
+#tweeter .tweet {
+  width: 500px;
+  border: 1px solid #BCBCBD;
+  border-radius: 5px;
+}
+
+#tweeter .htweet #coeur {
+  color: #E81C4F;
+}
+
+#tweeter .tweet .htweet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tweeter .tweet .htweet ul {
+  display: flex;
+  list-style: none;
+}
+#tweeter .tweet .htweet ul li img {
+  width: 25px;
+  border: 5px;
+}
+
+#tweeter .tweet .htweet ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#tweeter .tweet .htweet ul .nametweet:hover {
+  color:#3B94DD;
+}
+
+#tweeter .tweet .htweet ul li a .linktweet {
+  color: rgb(105, 105, 111);
+  font-weight: 400;
+}
+
+#tweeter .tweet .htweet button {
+  color: #55ACEE;
+  border: 1px solid #55ACEE;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 10px;
+  background-color: white;
+}
+
+#tweeter .tweet .htweet button:hover {
+  background-color: #55ACEE;
+  color: white;
+}
+#tweeter .tweet .containttweet {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  margin-top: 0;
+}
+
+#tweeter .tweet .containttweet .link {
+  text-decoration: none;
+  color: #3B94DD;
+
+}
+
+#tweeter .tweet .containttweet .link:hover {
+  opacity: .8;
+}
+
+#tweeter .tweet .date {
+  color: rgb(105, 105, 111);
+  margin-top: 0;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+#tweeter .tweet .rt {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+}
+
+#tweeter .tweet .rt li a {
+  text-decoration: none;
+  color: rgb(105, 105, 111);
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+#tweeter .tweet .rt li a:hover {
+  color:#EC2A70;
+}
+
+#tweeter .contener {
+  display: flex;
+  justify-content: center;
+}
+
+#tweeter .more {
+  color: #555459;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#tweeter .more a {
+  text-decoration: none;
+  font-weight: 400;
+  color:#3B94DD;
+}
+
+#tweeter .more a:hover {
+  opacity: .8;
+}
+
+#customers h3 {
+  color: rgb(58, 67, 81);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.customers {
+  display: flex;
+  justify-content: center;
+}
+#customers img {
+  text-align: center;
+}
+
+#customers p {
+  text-align: center;
+  margin: 40px 0;
+}
+#customers p a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #3B94DD;
+}
+
+#customers p a:hover {
+  text-decoration: underline;
+}
+#green {
+  background-color:#42C299;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+#green div {
+  width: 45%;
+}
+
+#green .amazing {
+  color: white;
+}
+
+#green .amazing h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#green .amazing p {
+  font-size: 20px;
+}
+
+#green .amazing p span {
+  color: #F5E256;
+  font-weight: 900;
+}
+
+#green .amazing button {
+  background-color: #42C299;
+  border: 2px solid #BCBCBD;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+#green .amazing button:hover {
+  background-color: white;
+  border-color: white;
+  color:#42C299;
+}
+
+#violet {
+  display: flex;
+  background-color: #6A4CA6;
+  padding: 60px 0;
+}
+
+#violet div {
+  width: 45%;
+}
+
+#violet .rocket {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#violet .perpesctive {
+  color: white;
+}
+
+#violet .perpesctive h3 {
+  font-size: 36px;
+  font-weight: 900;
+
+}
+
+#violet .perpesctive p {
+  font-size: 20px;
+}
+
+#orange {
+  display: flex;
+  justify-content: center;
+  background-color: #F9B644;
+}
+
+#orange div {
+  width: 45%;
+}
+
+#orange .profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orange .profil img {
+  width: 307px;
+  height: 317px;
+}
+#orange .good h3{
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+}
+
+#orange .good p {
+  color: rgb(45, 44, 48);
+  font-size: 20px;
+}
+ #orange .good a {
+   text-decoration: none;
+   color: rgb(45, 44, 48);
+   font-weight: 700;
+ }
+
+ #orange .good a:hover {
+   text-decoration: underline;
+ }
